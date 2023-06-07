@@ -3,6 +3,7 @@
 
 <head>
     <title>EventRadar &mdash; Event Browse</title>
+    <link rel="shortcut icon" type="image/icon" href="images/logo/favicon.png"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -14,20 +15,21 @@
 
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/eventbrowse.css">
-    
+
     <!-- Font -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
   </head>
 
 <body>
   <div class="text-center my-5">
     <h1 class="pb-2 fs-1">Explore Event</h1>
-    <h2 class="pb-5 fs-6">Find any event you're interested with</h2>
+    <h2 class="pb-5 fs-6">Find any event you're interested in!</h2>
     <div class="row pb-3">
       <div class="col"></div>
-      <div class="col">
+      <div class="col-8">
         <div class="input-group">
-          <input class="form-control me-2" type="search" placeholder="&#xF002; Search by topic, event, or venue"
+          <input class="form-control me-2 icon icon-search" type="search" placeholder="&#xF002;    Search by topic, event, or venue"
             aria-label="Search" style="font-family:Arial, FontAwesome">
         </div>
       </div>
@@ -40,13 +42,20 @@
       <div class="row">
 
         <div class="col-2 p-4 rounded bg-white">
-          <p class="fs-3">Filters</p>
+          <p class="fs-3"><h5>Filters</h5></p>
           <hr>
-          Online
-          <hr>
-          Location
           <div>
             <input class="me-2" type="checkbox" id="" name="horns">
+            <label>Online</label>
+          </div>
+          <div>
+            <input class="me-2" type="checkbox" id="" name="horns">
+            <label>Onsite</label>
+          </div>
+          <hr>
+          <strong>Location</strong>
+          <div>
+            <input class="me-2 top" type="checkbox" id="" name="horns">
             <label>International</label>
           </div>
           <div>
@@ -66,9 +75,9 @@
             <label>Malang</label>
           </div>
           <hr>
-          Categories
+          <strong>Categories</strong>
           <div>
-            <input class="me-2" type="checkbox" id="" name="horns">
+            <input class="me-2 top" type="checkbox" id="" name="horns">
             <label>Seminar</label>
           </div>
           <div>
@@ -80,7 +89,7 @@
             <label>Confrence</label>
           </div>
           <hr>
-          Price
+          <strong>Price</strong>
           <div class="range-slider">
             <span class="rangeValues my"></span>
             <input value="1000" min="1000" max="50000" step="500" type="range">
@@ -101,10 +110,54 @@
                         <h3 class="card-title">17</h3>
                       </div>
                       <div class="col-8">
-                        <h5 class="card-title">Event Title</h5>
-                        <p class="card-text">Cost: $50</p>
-                        <p class="card-text">Location: New York</p>
+                        <h5 class="card-title text-black evt">Event Title</h5>
+                        <div class="card-dummy"></div>
+                        <div class="card-text-1  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    Online
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-2  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    May 19, 2023
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-3  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    09.20 - 11.00 WIB
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                       </div>
+                    </div>
+                    <div class="about-btn">
+                      <p>
+                        <a href="event-detail.html">
+                          <button  class="about-view btn btn-secondary event-btn">
+                            View details
+                          </button>
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -119,10 +172,54 @@
                         <h3 class="card-title">17</h3>
                       </div>
                       <div class="col-8">
-                        <h5 class="card-title">Event Title</h5>
-                        <p class="card-text">Cost: $50</p>
-                        <p class="card-text">Location: New York</p>
+                        <h5 class="card-title text-black evt">Event Title</h5>
+                        <div class="card-dummy"></div>
+                        <div class="card-text-1  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    Online
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-2  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    May 19, 2023
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-3  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    09.20 - 11.00 WIB
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                       </div>
+                    </div>
+                    <div class="about-btn">
+                      <p>
+                        <a href="event-detail.html">
+                          <button  class="about-view btn btn-secondary event-btn">
+                            View details
+                          </button>
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -137,10 +234,54 @@
                         <h3 class="card-title">17</h3>
                       </div>
                       <div class="col-8">
-                        <h5 class="card-title">Event Title</h5>
-                        <p class="card-text">Cost: $50</p>
-                        <p class="card-text">Location: New York</p>
+                        <h5 class="card-title text-black evt">Event Title</h5>
+                        <div class="card-dummy"></div>
+                        <div class="card-text-1  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    Online
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-2  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    May 19, 2023
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-3  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    09.20 - 11.00 WIB
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                       </div>
+                    </div>
+                    <div class="about-btn">
+                      <p>
+                        <a href="event-detail.html">
+                          <button  class="about-view btn btn-secondary event-btn">
+                            View details
+                          </button>
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -155,10 +296,54 @@
                         <h3 class="card-title">17</h3>
                       </div>
                       <div class="col-8">
-                        <h5 class="card-title">Event Title</h5>
-                        <p class="card-text">Cost: $50</p>
-                        <p class="card-text">Location: New York</p>
+                        <h5 class="card-title text-black evt">Event Title</h5>
+                        <div class="card-dummy"></div>
+                        <div class="card-text-1  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    Online
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-2  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    May 19, 2023
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-3  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    09.20 - 11.00 WIB
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                       </div>
+                    </div>
+                    <div class="about-btn">
+                      <p>
+                        <a href="event-detail.html">
+                          <button  class="about-view btn btn-secondary event-btn">
+                            View details
+                          </button>
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -173,10 +358,54 @@
                         <h3 class="card-title">17</h3>
                       </div>
                       <div class="col-8">
-                        <h5 class="card-title">Event Title</h5>
-                        <p class="card-text">Cost: $50</p>
-                        <p class="card-text">Location: New York</p>
+                        <h5 class="card-title text-black evt">Event Title</h5>
+                        <div class="card-dummy"></div>
+                        <div class="card-text-1  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    Online
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-2  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    May 19, 2023
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-3  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    09.20 - 11.00 WIB
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                       </div>
+                    </div>
+                    <div class="about-btn">
+                      <p>
+                        <a href="event-detail.html">
+                          <button  class="about-view btn btn-secondary event-btn">
+                            View details
+                          </button>
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -191,10 +420,54 @@
                         <h3 class="card-title">17</h3>
                       </div>
                       <div class="col-8">
-                        <h5 class="card-title">Event Title</h5>
-                        <p class="card-text">Cost: $50</p>
-                        <p class="card-text">Location: New York</p>
+                        <h5 class="card-title text-black evt">Event Title</h5>
+                        <div class="card-dummy"></div>
+                        <div class="card-text-1  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    Online
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-2  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    May 19, 2023
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-3  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    09.20 - 11.00 WIB
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                       </div>
+                    </div>
+                    <div class="about-btn">
+                      <p>
+                        <a href="event-detail.html">
+                          <button  class="about-view btn btn-secondary event-btn">
+                            View details
+                          </button>
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -209,10 +482,54 @@
                         <h3 class="card-title">17</h3>
                       </div>
                       <div class="col-8">
-                        <h5 class="card-title">Event Title</h5>
-                        <p class="card-text">Cost: $50</p>
-                        <p class="card-text">Location: New York</p>
+                        <h5 class="card-title text-black evt">Event Title</h5>
+                        <div class="card-dummy"></div>
+                        <div class="card-text-1  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    Online
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-2  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    May 19, 2023
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-3  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    09.20 - 11.00 WIB
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                       </div>
+                    </div>
+                    <div class="about-btn">
+                      <p>
+                        <a href="event-detail.html">
+                          <button  class="about-view btn btn-secondary event-btn">
+                            View details
+                          </button>
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -227,10 +544,54 @@
                         <h3 class="card-title">17</h3>
                       </div>
                       <div class="col-8">
-                        <h5 class="card-title">Event Title</h5>
-                        <p class="card-text">Cost: $50</p>
-                        <p class="card-text">Location: New York</p>
+                        <h5 class="card-title text-black evt">Event Title</h5>
+                        <div class="card-dummy"></div>
+                        <div class="card-text-1  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    Online
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-2  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    May 19, 2023
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="card-text-3  align-self-stretch">
+                          <div class="block-6">
+                              <div class="d-flex mb-3 align-content-center me-sm-0">
+                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                <div class="text">
+                                  <h3 class="heading mb-0 pl-3 h6">
+                                    09.20 - 11.00 WIB
+                                  </h3>
+                                </div>
+                              </div>
+                          </div>
+                        </div>
                       </div>
+                    </div>
+                    <div class="about-btn">
+                      <p>
+                        <a href="event-detail.html">
+                          <button  class="about-view btn btn-secondary event-btn">
+                            View details
+                          </button>
+                        </a>
+                      </p>
                     </div>
                   </div>
                 </div>
