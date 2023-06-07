@@ -62,8 +62,8 @@ a {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
   .btn.btn-secondary {
-    background-color: #4F4CEE;
-    border-color: #4F4CEE;
+    background-color: #0022BA;
+    border-color: #0022BA;
     color: #000; }
   .btn.btn-sm {
     font-size: 14px !important;
@@ -85,6 +85,8 @@ a {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
 
+
+    
 .site-section {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
@@ -194,3 +196,42 @@ a {
       justify-content: center;
       position: relative;
     }
+    
+
+    /* payment-enroll */
+    .site-section .phone-no {
+      margin: auto;
+      margin-top: 0%;
+      width: 50%;
+      height: 20%;
+      border: 3px #ddddde solid;
+      padding: 15px 0px;
+      display: relative;
+      justify-content: center;
+      text-align: center;
+      vertical-align: middle;
+      background-color: #f6f5f5;
+    }
+    .site-section .phone-no .text p {
+      margin-top: 0%;
+    }
+      .site-section .phone-no .text h3 span {
+        font-size: 22px;
+        display: block;
+        color: #5c5c5f; }
+        .site-section .phone-no .text h3 p {
+          font-size: 24px;
+          color: rgba(164, 164, 164, 0.4); }
+
+    .site-section .image-up .img-up {
+      margin-left: 1rem;
+    }
+
+
+   /* thankyou poster image */
+   .poster-img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }
