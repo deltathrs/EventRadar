@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>EventRadar &mdash; Homepage</title>
+    <link rel="shortcut icon" type="image/icon" href="images/logo/favicon.png"/>
+    <meta content="width=device-width, initial-scale=1.0" name="v0iewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/br-firma" rel="stylesheet">
+    <!-- <link href="https://fonts.cdnfonts.com/css/neometric-2" rel="stylesheet"> -->
+    <link href="//db.onlinewebfonts.com/c/28981378a4f4992d718e204c83d5bc66?family=Neometric+Extra+Bold" rel="stylesheet" type="text/css"/>
+                
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/eventbrowse.css" rel="stylesheet">
+    
+    
+</head>
+
+<body>
+    <style>
+        input{
+  outline: none;
+}
+    </style>
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="py-5 navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class=" m-0 text-purple" style="font-family:'Neometric Extra Bold'"><i class="fa-solid fa-radar me-3"></i>EventRadar</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-1" style="font-family: 'Neometric Extra Bold';">
+                <a href="#" class="nav-item nav-link">About</a>
+                <a href="event-browse.html" class="nav-item nav-link">Find Events</a>
+                <a href="#" class="nav-item nav-link">Partner With Us</a>
+                <a href="#" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-lg-course py-1-5 px-4-5 me-4 d-none d-lg-block">Login</a>
+        </div>
+        
+    </nav>
+    <!-- Navbar End -->
+
+
+    <div class="container-fluid bg-primary py-13 msb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown" style="font-family:'Neometric Extra Bold'; font-size: 70px;">EventRadar</h1>
+                    <h6 class="display-6 mt-3 text-second animated slideInDown" style="font-size:2.3rem;">Discover, Plan, and Navigate Your Events with Event Radar!</h6>
+                    <div class="col-lg-12 px-10 text-center">
+                        <div class="input-group mt-5">
+                            <span class="form-control col-12 input-group-text bg-white animated slideInUp" style="height:50px" id="basic-addon1"><i class="bi bi-search"></i><input type="search" placeholder="Search by topic, event, or venue" aria-label="Search" class=" ms-2" style="height:40px; width:100%; border:0px"></span>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h1 class="section-title bg-white text-center text-dark px-3" style="font-family:'Neometric Extra Bold'; font-size:50px">Explore Events</h1>
+                <h2 class="mb-5" style="font-size:30px;">Find any event you’re interested with!</h2>
+            </div>
+        </div>
+    </div>
+    
+    <div class="info wow fadeInUp ">
+        <div class="col">
+            <div class="container">
+                <div class="d-flex">
+                    <h1 class="section-title bg-white text-dark py-5" style="font-family:'Neometric Extra Bold'; font-size:40px">Explore Events</h1>
+                    <div class="dropdown ms-auto py-5">
+                        <button class="btn btn-fortinary  dropdown-toggle" style="height:50px; font-family:Arial, Helvetica, sans-serif;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Weekdays
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown ms-3 py-5">
+                        <button class="btn btn-fortinary dropdown-toggle" style="height:50px; font-family:Arial, Helvetica, sans-serif;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Event Type
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown ms-3 py-5">
+                        <button class="btn btn-fortinary dropdown-toggle" style="height:50px; font-family:Arial, Helvetica, sans-serif;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Any Category
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4 py-3">
+                    <div class="col wow fadeInUp">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150" class="card-img-top" alt="Event Image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">NOV</h5>
+                                        <h3 class="card-title">17</h3>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title text-black evt">Event Title</h5>
+                                        <div class="card-dummy"></div>
+                                        <div class="card-text-1  align-self-stretch">
+                                            <div class="block-6">
+                                                <div class="d-flex mb-3 align-content-center">
+                                                    <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                                    <div class="text">
+                                                        <h3 class="heading mb-0 pl-3 h6">
+                                                        Online
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-2  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    May 19, 2023
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-3  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    09.20 - 11.00 WIB
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-btn">
+                                    <p>
+                                    <a href="event-detail.html">
+                                        <button  class="about-view btn btn-tertinary event-btn">
+                                        View details
+                                        </button>
+                                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col wow fadeInUp">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150" class="card-img-top" alt="Event Image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">NOV</h5>
+                                        <h3 class="card-title">17</h3>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title text-black evt">Event Title</h5>
+                                        <div class="card-dummy"></div>
+                                        <div class="card-text-1  align-self-stretch">
+                                            <div class="block-6">
+                                                <div class="d-flex mb-3 align-content-center">
+                                                    <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                                    <div class="text">
+                                                        <h3 class="heading mb-0 pl-3 h6">
+                                                        Online
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-2  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    May 19, 2023
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-3  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    09.20 - 11.00 WIB
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-btn">
+                                    <p>
+                                    <a href="event-detail.html">
+                                        <button  class="about-view btn btn-tertinary event-btn">
+                                        View details
+                                        </button>
+                                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col wow fadeInUp">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150" class="card-img-top" alt="Event Image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">NOV</h5>
+                                        <h3 class="card-title">17</h3>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title text-black evt">Event Title</h5>
+                                        <div class="card-dummy"></div>
+                                        <div class="card-text-1  align-self-stretch">
+                                            <div class="block-6">
+                                                <div class="d-flex mb-3 align-content-center">
+                                                    <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                                    <div class="text">
+                                                        <h3 class="heading mb-0 pl-3 h6">
+                                                        Online
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-2  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    May 19, 2023
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-3  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    09.20 - 11.00 WIB
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-btn">
+                                    <p>
+                                    <a href="event-detail.html">
+                                        <button  class="about-view btn btn-tertinary event-btn">
+                                        View details
+                                        </button>
+                                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col wow fadeInUp">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150" class="card-img-top" alt="Event Image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">NOV</h5>
+                                        <h3 class="card-title">17</h3>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title text-black evt">Event Title</h5>
+                                        <div class="card-dummy"></div>
+                                        <div class="card-text-1  align-self-stretch">
+                                            <div class="block-6">
+                                                <div class="d-flex mb-3 align-content-center">
+                                                    <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                                    <div class="text">
+                                                        <h3 class="heading mb-0 pl-3 h6">
+                                                        Online
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-2  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    May 19, 2023
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-3  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    09.20 - 11.00 WIB
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-btn">
+                                    <p>
+                                    <a href="event-detail.html">
+                                        <button  class="about-view btn btn-tertinary event-btn">
+                                        View details
+                                        </button>
+                                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col wow fadeInUp">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150" class="card-img-top" alt="Event Image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">NOV</h5>
+                                        <h3 class="card-title">17</h3>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title text-black evt">Event Title</h5>
+                                        <div class="card-dummy"></div>
+                                        <div class="card-text-1  align-self-stretch">
+                                            <div class="block-6">
+                                                <div class="d-flex mb-3 align-content-center">
+                                                    <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                                    <div class="text">
+                                                        <h3 class="heading mb-0 pl-3 h6">
+                                                        Online
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-2  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    May 19, 2023
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-3  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    09.20 - 11.00 WIB
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-btn">
+                                    <p>
+                                    <a href="event-detail.html">
+                                        <button  class="about-view btn btn-tertinary event-btn">
+                                        View details
+                                        </button>
+                                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col wow fadeInUp">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150" class="card-img-top" alt="Event Image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">NOV</h5>
+                                        <h3 class="card-title">17</h3>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title text-black evt">Event Title</h5>
+                                        <div class="card-dummy"></div>
+                                        <div class="card-text-1  align-self-stretch">
+                                            <div class="block-6">
+                                                <div class="d-flex mb-3 align-content-center">
+                                                    <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                                    <div class="text">
+                                                        <h3 class="heading mb-0 pl-3 h6">
+                                                        Online
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-2  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    May 19, 2023
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-3  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    09.20 - 11.00 WIB
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-btn">
+                                    <p>
+                                    <a href="event-detail.html">
+                                        <button  class="about-view btn btn-tertinary event-btn">
+                                        View details
+                                        </button>
+                                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col wow fadeInUp">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150" class="card-img-top" alt="Event Image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">NOV</h5>
+                                        <h3 class="card-title">17</h3>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title text-black evt">Event Title</h5>
+                                        <div class="card-dummy"></div>
+                                        <div class="card-text-1  align-self-stretch">
+                                            <div class="block-6">
+                                                <div class="d-flex mb-3 align-content-center">
+                                                    <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                                    <div class="text">
+                                                        <h3 class="heading mb-0 pl-3 h6">
+                                                        Online
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-2  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    May 19, 2023
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-3  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    09.20 - 11.00 WIB
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-btn">
+                                    <p>
+                                    <a href="event-detail.html">
+                                        <button  class="about-view btn btn-tertinary event-btn">
+                                        View details
+                                        </button>
+                                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col wow fadeInUp">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150" class="card-img-top" alt="Event Image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">NOV</h5>
+                                        <h3 class="card-title">17</h3>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title text-black evt">Event Title</h5>
+                                        <div class="card-dummy"></div>
+                                        <div class="card-text-1  align-self-stretch">
+                                            <div class="block-6">
+                                                <div class="d-flex mb-3 align-content-center">
+                                                    <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                                    <div class="text">
+                                                        <h3 class="heading mb-0 pl-3 h6">
+                                                        Online
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-2  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    May 19, 2023
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-3  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    09.20 - 11.00 WIB
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-btn">
+                                    <p>
+                                    <a href="event-detail.html">
+                                        <button  class="about-view btn btn-tertinary event-btn">
+                                        View details
+                                        </button>
+                                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col wow fadeInUp">
+                        <div class="card">
+                            <img src="https://picsum.photos/300/150" class="card-img-top" alt="Event Image">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <h5 class="card-title">NOV</h5>
+                                        <h3 class="card-title">17</h3>
+                                    </div>
+                                    <div class="col-8">
+                                        <h5 class="card-title text-black evt">Event Title</h5>
+                                        <div class="card-dummy"></div>
+                                        <div class="card-text-1  align-self-stretch">
+                                            <div class="block-6">
+                                                <div class="d-flex mb-3 align-content-center">
+                                                    <div class="icon-c d-flex align-items-center"><span class="icon icon-map-marker"></span></div>
+                                                    <div class="text">
+                                                        <h3 class="heading mb-0 pl-3 h6">
+                                                        Online
+                                                        </h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-2  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-calendar"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    May 19, 2023
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-text-3  align-self-stretch">
+                                        <div class="block-6">
+                                            <div class="d-flex mb-3 align-content-center me-sm-0">
+                                                <div class="icon-c d-flex align-items-center"><span class="icon icon-clock-o"></span></div>
+                                                <div class="text">
+                                                    <h3 class="heading mb-0 pl-3 h6">
+                                                    09.20 - 11.00 WIB
+                                                    </h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="about-btn">
+                                    <p>
+                                    <a href="event-detail.html">
+                                        <button  class="about-view btn btn-tertinary event-btn">
+                                        View details
+                                        </button>
+                                    </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container mt-5">
+                        <center>
+                            <a href="event-browse.html" class=" btn btn-lg-test py-3 px-5" style="font-family:'Neometric Extra Bold'; font-size:13; width:40%; height:100%;">See More</a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid bg-primary py-13 msb-5 page-header-footer wow fadeIn">
+</div>
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-darkblue text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6"><h2 class="text-white">Event Radar</h2></div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3" href="">Partner With Us</h4>
+                    <a class="btn btn-link" href="">Affiliate program</a>
+                    <a class="btn btn-link" href="">Connectivity Partners</a>
+                    <a class="btn btn-link" href="">Promotions and events</a>
+                    <a class="btn btn-link" href="">Integrations</a>
+                    <a class="btn btn-link" href="">Community</a>
+                    <a class="btn btn-link" href="">Loyalty program</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy;2023 <a class="border-bottom" href="#">EventRadar</a>, Incorporated.
+
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a><br><br>
+                        Distributed By <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a> -->
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/homepage.js"></script>
+</body>
+
+</html>
