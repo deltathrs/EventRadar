@@ -271,6 +271,7 @@ a {
   color:#4F4CEE;
 }
 
+<<<<<<< HEAD
 .btn-lg-test {
   padding: 0;
   display: flex;
@@ -295,6 +296,8 @@ a {
   color:white;
 }
 
+=======
+>>>>>>> 5d57e43b101acb2c93c6419572ceca95edff91d8
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
   border: none;
