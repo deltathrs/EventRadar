@@ -271,10 +271,6 @@ a {
   color:#4F4CEE;
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> e0081cc9f9774b854a08859d6d622300ab8ea0c1
 .btn-lg-test {
   padding: 0;
   display: flex;
@@ -299,11 +295,6 @@ a {
   color:white;
 }
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 5d57e43b101acb2c93c6419572ceca95edff91d8
->>>>>>> e0081cc9f9774b854a08859d6d622300ab8ea0c1
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
   border: none;
@@ -390,7 +381,6 @@ a {
   background: rgba(15, 23, 43, .7);
 }
 
-<<<<<<< HEAD
 .page-header-footer {
   background:  url(../images/footer.png);
   background-position: center center;
@@ -398,8 +388,6 @@ a {
   background-size: cover;
 }
 
-=======
->>>>>>> e0081cc9f9774b854a08859d6d622300ab8ea0c1
 /*** Footer ***/
 .footer .btn.btn-social {
   margin-right: 5px;
