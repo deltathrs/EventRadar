@@ -27,11 +27,7 @@
   position: relative;
   padding-bottom: 20px;
 }
-p{
-  text-align: center;
-  margin-top: -10px;
-  font-size: 30px;
-}
+
 .range-slider .rangeValues {
   display: block;
   /* box-shadow: 0 0 20px rgba(0,139,253,0.25); */
