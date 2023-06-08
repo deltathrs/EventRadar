@@ -271,6 +271,33 @@ a {
   color:#4F4CEE;
 }
 
+<<<<<<< HEAD
+.btn-lg-test {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  border-radius: 30px; 
+  border: 2px solid #4F4CEE;
+  background-color: white;
+  color:#4F4CEE
+
+}
+
+.btn-lg-test:hover {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  background-color: #4F4CEE;
+  border: 2px solid #4F4CEE;
+  color:white;
+}
+
+=======
+>>>>>>> 5d57e43b101acb2c93c6419572ceca95edff91d8
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
   border: none;
